@@ -1,7 +1,7 @@
 {
   "name": "Python Jupyter Dev",
   "image": "mcr.microsoft.com/devcontainers/python:3.14",
-  "postCreateCommand": "pip install pipreqs && pipreqs . --force",
+  "postCreateCommand": "pip install -r requirements.txt && pip install pipreqs && pipreqs . --force",
   "customizations": {
     "vscode": {
       "extensions": [
